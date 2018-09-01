@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Qurondan suralar</string>
+    <string name="about_app">Dastur haqida</string>
+    <string name="hadis">Qiziqarli malumotlar</string>
+    <string name="tafsir">Oyatlar qiroati va tarjimasi</string>
+    <string name="tinglash">Surani tinglash (mp3)</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+
+    <string name="ad_unit_id_init">ca-app-pub-2494078776711345~4492026000</string>
+    <string name="ad_unit_id_load">ca-app-pub-2494078776711345/8211779162</string>
+
+    <!--Interstitial todo add for Activity-->
+    <string name="fit_ad_unit_id_init">ca-app-pub-2494078776711345~4492026000</string>
+    <string name="fit_ad_unit_id_load">ca-app-pub-2494078776711345/7832972779</string>
+
+    <string name="share_title">Baham ko`rish</string>
+    <string name="share_subject">Siz ham baxramand bo`ling!</string>
+    <string name="share_body">%s \n https://play.google.com/store/apps/details?id=uz.newdevoloper.inomjon.tafsir_quron</string>
+
+</resources>

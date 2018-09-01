@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uz.newdevoloper.inomjon.tafsir_quron">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".MainApp"
+        android:theme="@style/AppTheme">
+            <!--android:name=".Activities.ModelGeneratorActivity"-->
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.HadislarActivity"
+            android:label="@string/hadis" />
+        <activity android:name=".Activities.OyatlarActivity"
+                   android:label="Oyatlar tarjimasi"></activity>
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="hadis.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="5" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="uz.newdevoloper.inomjon.tafsir_quron.model.SurahGroup,,
+                        uz.newdevoloper.inomjon.tafsir_quron.model.Verses,
+                        uz.newdevoloper.inomjon.tafsir_quron.model.Surah" />
+    </application>
+
+
+</manifest>
